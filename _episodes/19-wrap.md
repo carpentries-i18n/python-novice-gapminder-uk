@@ -33,13 +33,13 @@ keypoints:
 - "We are constantly seeking to improve this course."
 ---sgstr "---
 title: "Зворотній зв'язок"
-навчання: 0
-вправи: 15
-питання:
+teaching: 0
+exercises: 15
+questions:
 - "Як пройшло заняття?"
-цілі:
+objectives:
 - "Зібрати відгуки про заняття"
-ключові моменти:
+keypoints:
 - "Ми постійно прагнемо покращити цей курс."
 ---
 

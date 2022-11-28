@@ -316,7 +316,7 @@ layout: break
 title: "Ранкова кава"
 teaching: 0
 exercises: 0
-перерва: 15
+break: 15
 ---
 > {: .solution}
 {: .challenge}

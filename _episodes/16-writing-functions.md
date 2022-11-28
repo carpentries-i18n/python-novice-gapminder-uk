@@ -536,18 +536,18 @@ objectives:
 - "Read a traceback and determine the file, function, and line number on which the error occurred, the type of error, and the error message."
 keypoints:
 - "The scope of a variable is the part of a program that can 'see' that variable."
----sgstr "змінна---
+---sgstr "---
 title: "Область видимості змінної"
-навчання: 10
-вправи: 10
-питання:
+teaching: 10
+exercises: 10
+questions:
 - "Як насправді працюють виклики функцій?"
 - "Як я можу визначити місце виникнення помилок?"
-цілі:
+objectives:
 - "Ідентифікація локальних і глобальних змінних."
 - "Ідентифікація параметрів як локальних змінних."
 - "Аналіз звіту системної  діагностики (Traceback) та визначення файлу, функції та номеру рядка, що містять збій, тип помилки та повідомлення про помилку"
-ключові моменти:
+keypoints:
 - "Область змінної - це частина програми, яка може "бачити" цю зміну."
 ---
 > {: .solution}

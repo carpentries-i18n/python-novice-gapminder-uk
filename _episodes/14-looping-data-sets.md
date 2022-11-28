@@ -173,9 +173,9 @@ break: 15
 ---sgstr "---
 layout: break
 title: "Післяобідня кава"
-навчання: 0
-вправи: 0
-перерва: 15
+teaching: 0
+exercises: 0
+break: 15
 ---
 > {: .solution}
 {: .challenge}

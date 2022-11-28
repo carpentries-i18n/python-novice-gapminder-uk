@@ -306,11 +306,11 @@ teaching: 0
 exercises: 0
 break: 45
 ---sgstr "---
-layout: Перерва
-title: "Ленч"
-навчання: 0
-вправи: 0
-перерва: 45
+layout: break
+title: "Ланч"
+teaching: 0
+exercises: 0
+break: 45
 ---
 {: .callout}
 
