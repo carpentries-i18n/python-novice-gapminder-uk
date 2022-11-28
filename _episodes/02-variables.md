@@ -1,3 +1,24 @@
+---
+title: "Змінні та присвоєння"
+teaching: 10
+exercises: 10
+questions:
+- "Як я можу зберігати дані в програмах?"
+objectives:
+- "Написати програми, які присвоюють скалярні значення змінним і виконують обчислення з цими значеннями."
+- "Правильнo відстежувати зміни значень у програмах, які використовують скалярне присвоєння."
+keypoints:
+- "Використовуйте змінні для зберігання значень."
+- "Використовуйте `print` для відображення значень."
+- "Змінні зберігаються між клітинками."
+- "Змінні мають бути створені перед їх використанням."
+- "Змінні можна використовувати в обчисленнях."
+- "Використовуйте індекс, щоб отримати один символ із рядка."
+- "Використовуйте зріз, щоб отримати підрядок."
+- "Використовуйте вбудовану функцію `len`, щоб знайти довжину рядка."
+- "Python чутливий до регістру."
+- "Використовуйте змістовні імена змінних."
+---
 ## Використовуйте змінні для зберігання значень.
 
 *   **Змінні** - це назви значень.
@@ -329,47 +350,7 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 > > 3. `thing[:high]` поверне зріз, починаючи з початку `thing` до значення перед `high`
 > > 4. `thing[:]` поверне всі значення рядка `thing`
 > > 5. `thing[number:some-negative-number]` поверне зріз, починаючи зі значення `number` до значення `some-negative-number`, що обраховується з кінця рядка `thing`
-> > 6. Якщо частина фрагмента виходить за межі діапазону, операція не завершується. `atom_name[0:15]` дає той самий результат, що й`atom_name[0:]`. Front Matte: python-novice-gapminder/_episodes/03-types-conversion.md:sgid "---
-title: "Data Types and Type Conversion"
-teaching: 10
-exercises: 10
-questions:
-- "What kinds of data do programs store?"
-- "How can I convert one type to another?"
-objectives:
-- "Explain key differences between integers and floating point numbers."
-- "Explain key differences between numbers and character strings."
-- "Use built-in functions to convert between integers, floating point numbers, and strings."
-keypoints:
-- "Every value has a type."
-- "Use the built-in function `type` to find the type of a value."
-- "Types control what operations can be done on values."
-- "Strings can be added and multiplied."
-- "Strings have a length (but numbers don't)."
-- "Must convert numbers to strings or vice versa when operating on them."
-- "Can mix integers and floats freely in operations."
-- "Variables only change value when something is assigned to them."
----sgstr "---
-title: "Типи даних та їх перетворення"
-teaching: 10
-exercises: 10
-questions:
-- "Які типи даних зберігають програми?"
-- "Як перетворити один тип у інший?"
-objectives:
-- "Зʼясувати чим відрізняються цілі числа від чисел з плаваючою крапкою."
-- "Зʼясувати чим відрізняються числа та рядки символів."
-- "Використовувати вбудовані функції для перетворення між цілими та дійсними числами, та рядками."
-keypoints:
-- "Кожне значення має тип."
-- "Вбудована функція `type` повертає тип значення."
-- "Тип контролює які операції можуть бути виконані над значеннями."
-- "Рядки можуть бути додані та помножені."
-- "Рядки мають довжину (а числа - ні)."
-- "Для деяких операцій може бути необхідно перетворити число у строку, або навпаки."
-- "Цілі та дійсні числа можна використовувати разом для аріфметичних дій."
-- "Змінні можуть змінити своє значення тільки через присвоювання."
----
+> > 6. Якщо частина фрагмента виходить за межі діапазону, операція не завершується. `atom_name[0:15]` дає той самий результат, що й`atom_name[0:]`.
 > {: .solution}
 {: .challenge}
 

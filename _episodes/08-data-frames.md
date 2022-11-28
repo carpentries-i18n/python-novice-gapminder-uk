@@ -1,3 +1,23 @@
+---
+title: "Pandas DataFrames"
+teaching: 15
+exercises: 15
+questions:
+- "Як я можу зробити статистичний аналіз табличних даних?"
+objectives:
+- "Вибір окремих значень з фрейму даних Pandas."
+- "Вибір цілих рядків або цілих стовпців з фрейму даних"
+- "Вибір підмножини рядків і стовпців з кадру даних за одну операцію."
+- "Вибір підмножини кадрів даних за одним бульовим критерієм."
+keypoints:
+- "Використовуйте `DataFrame.iloc[..., ...]` для вибору значень за цілим розташуванням."
+- "Використовуйте `:` окремо для позначення всіх стовпців або всіх рядків."
+- "Вибирайте кілька стовпців або рядків за допомогою `DataFrame.loc` і назви зрізу."
+- "Результат зрізу можна використовувати в подальших операціях."
+- "Використовуйте порівняння для вибору даних на основі цінності."
+- "Виберіть значення або NaN за допомогою бульової маски."
+---
+
 ## Зауваження щодо Pandas DataFrames/Series
 
 [DataFrame][pandas-dataframe] є колекцією [Series][pandas-series];
@@ -550,37 +570,5 @@ data.groupby(wealth_score).sum()
 
 [pandas-dataframe]: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
 [pandas-series]: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html
-[numpy]: http://www.numpy.org/ Front Matte: python-novice-gapminder/_episodes/09-plotting.md:sgid "---
-title: "Plotting"
-teaching: 15
-exercises: 15
-questions:
-- "How can I plot my data?"
-- "How can I save my plot for publishing?"
-objectives:
-- "Create a time series plot showing a single data set."
-- "Create a scatter plot showing relationship between two data sets."
-keypoints:
-- "[`matplotlib`](https://matplotlib.org/) is the most widely used scientific plotting library in Python."
-- "Plot data directly from a Pandas dataframe."
-- "Select and transform data, then plot it."
-- "Many styles of plot are available: see the [Python Graph Gallery](https://python-graph-gallery.com/matplotlib/) for more options."
-- "Can plot many sets of data together."
----sgstr "---
-title: "Побудова графіків"
-teaching: 15
-exercises: 15
-questions:
-- "Я побудувати графік за моїми даними?"
-- "Як зберегти графік для публікації?"
-objectives:
-- "Створити графік часового ряду для одного набору даних."
-- "Створити діаграму розсіювання, що показує зв’язок між двома наборами даних."
-keypoints:
-- "[`matplotlib`](https://matplotlib.org/) є найбільш розповсюдженою графічною бібліотекою у Python."
-- "Будуйте графіки безпосередньо з фрейму даних Pandas."
-- "Виберіть і трансформуйте дані, а потім будуйте графік."
-- "Доступно багато стилів графіку: перегляньте [Python Graph Gallery](https://python-graph-gallery.com/matplotlib/) for more options."
-- "Можна будувати разом графіки за багатьма наборами даних."
----
+[numpy]: http://www.numpy.org/
 

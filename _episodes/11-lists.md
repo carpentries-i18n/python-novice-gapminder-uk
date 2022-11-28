@@ -1,3 +1,24 @@
+---
+title: "Списки"
+teaching: 10
+exercises: 10
+questions:
+- "Як я можу зберігати набори значень?"
+objectives:
+- "Пояснити, навіщо програмам потрібні колекції значень"
+- "Писати програми, які створюють плоскі списки, індексують їх, розрізають і змінюють через призначення та виклики методів."
+keypoints:
+- "Список зберігає багато значень в одній структурі."
+- "Використовуйте індекс елемента, щоб отримати його зі списку."
+- "Значення списків можна замінити шляхом присвоєння."
+- "Додавання елементів до списку подовжує його"
+- "Використовуйте `del`, щоб повністю видалити елементи зі списку."
+- "Порожній список не містить значень."
+- "Списки можуть містити значення різних типів."
+- "Рядки символів можна індексувати як списки."
+- "Рядки символів є незмінними."
+- "Індексація за межами колекції є помилкою.."
+---
 ## Список зберігає багато значень в одній структурі.
 
 *   Виконання обчислень із сотнею змінних під назвою `pressure_001`, `pressure_002` тощо,
@@ -402,45 +423,7 @@ IndexError: string index out of range
 > >  на той самий об'єкт.
 > > 
 > > `new = old[:]` однак створює новий об’єкт списку `new`, який містить усі елементи
-> > зі списку `old`; `new` та `old` є різними об'єктами. Front Matte: python-novice-gapminder/_episodes/12-for-loops.md:sgid "---
-title: "For Loops"
-teaching: 10
-exercises: 15
-questions:
-- "How can I make a program do many things?"
-objectives:
-- "Explain what for loops are normally used for."
-- "Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration."
-- "Write for loops that use the Accumulator pattern to aggregate values."
-keypoints:
-- "A *for loop* executes commands once for each value in a collection."
-- "A `for` loop is made up of a collection, a loop variable, and a body."
-- "The first line of the `for` loop must end with a colon, and the body must be indented."
-- "Indentation is always meaningful in Python."
-- "Loop variables can be called anything (but it is strongly advised to have a meaningful name to the looping variable)."
-- "The body of a loop can contain many statements."
-- "Use `range` to iterate over a sequence of numbers."
-- "The Accumulator pattern turns many values into one."
----sgstr "---
-title: "Цикли for"
-teaching: 10
-exercises: 15
-questions:
-- "Як змусити програму робити багато речей?"
-objectives:
-- "Поясніть, для чого зазвичай використовуються цикли for."
-- "Відстежуйте виконання простого (невкладеного) циклу та правильно вказуйте значення змінних у кожній ітерації."
-- "Пишить цикли for, які використовують паттерн накопичувача для агрегування значень."  
-keypoints:
-- "Цикл *for* виконує команди один раз для кожного значення в колекції."
-- "Цикл `for` складається з колекції, змінної циклу та тіла."
-- "Перший рядок циклу `for` має закінчуватися двокрапкою, а тіло має бути з відступом."
-- "Відступи завжди важливі в Python."
-- "Змінні циклу можна називати як завгодно (але настійно рекомендується мати значущу назву для змінної циклу)."
-- "Тіло циклу може містити багато операторів."
-- "Використовуйте `range` для перебору послідовності чисел."
-- "Патерн накопичувача перетворює багато значень в одне."
----
+> > зі списку `old`; `new` та `old` є різними об'єктами.
 > {: .solution}
 {: .challenge}
 

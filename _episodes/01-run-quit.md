@@ -5,8 +5,8 @@ exercises: 0
 questions:
 - "Як запустити програму Python?"
 objectives:
-- "Запустити сервер JupyterLab." - 
-- "Створити новий сценарій Python." 
+- "Запустити сервер JupyterLab."
+- "Створити новий сценарій Python."
 - "Створити блокнот Jupyter."
 - "Зупинити сервер JupyterLab."
 - "Зрозуміти різницю між сценарієм Python і блокнотом Jupyter."
@@ -513,45 +513,5 @@ $ jupyter lab
 [anaconda]: https://docs.continuum.io/anaconda/install
 [jupyterlab-ui]: https://jupyterlab.readthedocs.io/en/stable/user/interface.html
 [jupyterlab-notebook-docs]: https://jupyterlab.readthedocs.io/en/stable/user/notebook.html
-[markdown]: https://en.wikipedia.org/wiki/Markdown Front Matte: python-novice-gapminder/_episodes/02-variables.md:sgid "---
-title: "Variables and Assignment"
-teaching: 10
-exercises: 10
-questions:
-- "How can I store data in programs?"
-objectives:
-- "Write programs that assign scalar values to variables and perform calculations with those values."
-- "Correctly trace value changes in programs that use scalar assignment."
-keypoints:
-- "Use variables to store values."
-- "Use `print` to display values."
-- "Variables persist between cells."
-- "Variables must be created before they are used."
-- "Variables can be used in calculations."
-- "Use an index to get a single character from a string."
-- "Use a slice to get a substring."
-- "Use the built-in function `len` to find the length of a string."
-- "Python is case-sensitive."
-- "Use meaningful variable names."
----sgstr "---
-title: "Змінні та присвоєння"
-teaching: 10
-exercises: 10
-questions:
-- "Як я можу зберігати дані в програмах?"
-objectives:
-- "Написати програми, які присвоюють скалярні значення змінним і виконують обчислення з цими значеннями."
-- "Правильнo відстежувати зміни значень у програмах, які використовують скалярне присвоєння."
-keypoints:
-- "Використовуйте змінні для зберігання значень."
-- "Використовуйте `print` для відображення значень."
-- "Змінні зберігаються між клітинками."
-- "Змінні мають бути створені перед їх використанням."
-- "Змінні можна використовувати в обчисленнях."
-- "Використовуйте індекс, щоб отримати один символ із рядка."
-- "Використовуйте зріз, щоб отримати підрядок."
-- "Використовуйте вбудовану функцію `len`, щоб знайти довжину рядка."
-- "Python чутливий до регістру."
-- "Використовуйте змістовні імена змінних."
----
+[markdown]: https://en.wikipedia.org/wiki/Markdown
 

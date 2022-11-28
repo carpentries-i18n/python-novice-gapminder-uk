@@ -1,3 +1,21 @@
+---
+title: "Бібліотеки"
+teaching: 10
+exercises: 10
+questions:
+- "Як я можу використовувати програмне забезпечення, яке написали інші люди?"
+- "Як я можу дізнатися, що робить це програмне забезпечення?"
+цілі:
+- "Пояснити, що таке програмні бібліотеки і для чого їх створюють і використовують програмісти."
+- "Написати програми, які імпортують і використовують бібліотеки зі стандартної бібліотеки Python."
+- "Знайти та прочитати документацію для стандартних бібліотек в інтерактивному режимі (в інтерпретаторі) та онлайн"
+keypoints:
+- "Більша частина потужності мови програмування полягає в її бібліотеках."
+- "Програма має імпортувати бібліотечний модуль, щоб використовувати його."
+- "Використовуйте `help` , щоб дізнатися про вміст бібліотечного модуля."
+- "Імпортуйте певні елементи із бібліотеки для скорочення програм."
+- "Створіть псевдонім для бібліотеки під час її імпорту для скорочення програм."
+---
 ## Більша частина потужності мови програмування полягає в її бібліотеках.
 
 *   *Бібліотека* — це набір файлів (так звані *модулі*), який містить
@@ -361,39 +379,5 @@ cos(pi) is -1.0
 
 [pypi]: https://pypi.python.org/pypi/
 [stdlib]: https://docs.python.org/3/library/
-[randommod]: https://docs.python.org/3/library/random.html Front Matte: python-novice-gapminder/_episodes/07-reading-tabular.md:sgid "---
-title: "Reading Tabular Data into DataFrames"
-teaching: 10
-exercises: 10
-questions:
-- "How can I read tabular data?"
-objectives:
-- "Import the Pandas library."
-- "Use Pandas to load a simple CSV data set."
-- "Get some basic information about a Pandas DataFrame."
-keypoints:
-- "Use the Pandas library to get basic statistics out of tabular data."
-- "Use `index_col` to specify that a column's values should be used as row headings."
-- "Use `DataFrame.info` to find out more about a dataframe."
-- "The `DataFrame.columns` variable stores information about the dataframe's columns."
-- "Use `DataFrame.T` to transpose a dataframe."
-- "Use `DataFrame.describe` to get summary statistics about data."
----sgstr "---
-title: "Читання табличних даних у DataFrames"
-teaching: 10
-exercises: 10
-questions:
-- "Як я можу читати табличні дані?"
-objectives:
-- "Імпортувати бібліотеку Pandas"
-- "Використати Pandas для завантаження простого набору даних CSV."
-- "Отримати базову інформацію про Pandas DataFrame."
-keypoints:
-- "Використовуйте бібліотеку Pandas, щоб отримати базову статистику з табличних даних."
-- "Використовуйте `index_col`, щоб вказати, що значення стовпця повинні використовуватися як заголовки рядків."
-- "Використовуйте `DataFrame.info`, щоб дізнатися більше про фрейм даних."
-- "Змінна `DataFrame.columns` зберігає інформацію про стовпці фрейму даних."
-- "Використовуйте `DataFrame.T` для транспонування кадру даних."
-- "Використовуйте `DataFrame.describe`, щоб отримати підсумкову статистику даних."
----
+[randommod]: https://docs.python.org/3/library/random.html
 

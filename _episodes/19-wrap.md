@@ -1,3 +1,16 @@
+---
+title: "Підведення підсумків"
+teaching: 20
+exercises: 0
+questions:
+- "Чому ми навчилися??"
+- "Що там ще є і де це знайти?"
+objectives:
+- "Назвіть і знайдіть сайти наукової спільноти Python для програмного забезпечення, семінарів і допомоги."
+keypoints:
+- "Python підтримує велику та різноманітну спільноту в академічних і промислових колах."
+---
+
 Леслі Лемпорт якось сказав: «Письмо — це природний спосіб показати вам, наскільки неохайно ви мислите».
 Те саме стосується програмування:
 багато речей, які здаються очевидними, коли ми думаємо про них
@@ -21,25 +34,5 @@
     може бути корисною,
     а також розділи на [NumPy](https://stackoverflow.com/questions/tagged/numpy?tab=Votes),
     [SciPy](https://stackoverflow.com/questions/tagged/scipy?tab=Votes), and
-    [Pandas](https://stackoverflow.com/questions/tagged/pandas?tab=Votes). Front Matte: python-novice-gapminder/_episodes/20-feedback.md:sgid "---
-title: "Feedback"
-teaching: 0
-exercises: 15
-questions:
-- "How did the class go?"
-objectives:
-- "Gather feedback on the class"
-keypoints:
-- "We are constantly seeking to improve this course."
----sgstr "---
-title: "Зворотній зв'язок"
-teaching: 0
-exercises: 15
-questions:
-- "Як пройшло заняття?"
-objectives:
-- "Зібрати відгуки про заняття"
-keypoints:
-- "Ми постійно прагнемо покращити цей курс."
----
+    [Pandas](https://stackoverflow.com/questions/tagged/pandas?tab=Votes).
 

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Instructors' Guide"
+permalink: /guide/
+---
+
 ## Загальні зауваження
 
 Можна не проходити весь урок.
@@ -20,13 +26,5 @@
     про онлайн-пошук:
     "Якщо ви знайдете щось, 
     чим інші люди були стурбовані достатньо, щоб возитися з блогом чи публікацією поста про переповнення стеку, 
-    то, ймовірно, це не тривіально." Front Matte: python-novice-gapminder/aio.md:sgid "---
-layout: page
-permalink: /aio/
-permalink: /aio/index.html
----sgstr "---
-layout: page
-permalink: /aio/
-permalink: /aio/index.html
----
+    то, ймовірно, це не тривіально."
 

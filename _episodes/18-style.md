@@ -1,3 +1,20 @@
+---
+title: "Стиль програмування"
+teaching: 15
+exercises: 15
+questions:
+- "Як я можу зробити мої програми більш читабельними?"
+- "Як більшість програмістів форматують свій код?"
+- "Як програми можуть перевірити свою роботу?"
+objectives:
+- "Визначення основних правил стилю кодування"
+- "Рефакторинг односторінкових програм, щоб зробити їх більш читабельними та обґрунтувати зміни"
+- "Використовання стандартів кодування спільноти Python (PEP-8)."
+keypoints:
+- "Дотримуйтеся стандартного стилю Python у своєму коді."
+- "Використовуйте рядки документів для надання вбудованої довідки"
+---
+
 ## Стиль кодування
 
 Стиль кодування допомагає нам краще зрозуміти код. Це допомагає підтримувати та змінювати код.
@@ -210,29 +227,7 @@ average(values)
 > > ----*-*--
 > > ---*---*-
 > > ~~~
-> > {: .output} Front Matte: python-novice-gapminder/_episodes/19-wrap.md:sgid "---
-title: "Wrap-Up"
-teaching: 20
-exercises: 0
-questions:
-- "What have we learned?"
-- "What else is out there and where do I find it?"
-objectives:
-- "Name and locate scientific Python community sites for software, workshops, and help."
-keypoints:
-- "Python supports a large and diverse community across academia and industry."
----sgstr "---
-title: "Підведення підсумків"
-teaching: 20
-exercises: 0
-questions:
-- "Чому ми навчилися??"
-- "Що там ще є і де це знайти?"
-objectives:
-- "Назвіть і знайдіть сайти наукової спільноти Python для програмного забезпечення, семінарів і допомоги."
-keypoints:
-- "Python підтримує велику та різноманітну спільноту в академічних і промислових колах."
----
+> > {: .output}
 > {: .solution}
 {: .challenge}
 

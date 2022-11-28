@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Налаштування"
+permalink: /setup/
+root: ..
+---
+
 ## Встановлення Python за допомогою Anaconda
 
 [Python][python] - це популярна мова для наукових обчислень, яка чудово підходить для 

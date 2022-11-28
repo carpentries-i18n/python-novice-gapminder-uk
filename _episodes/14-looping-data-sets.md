@@ -1,3 +1,19 @@
+---
+title: "Перегляд наборів даних в циклі"
+teaching: 5
+exercises: 10
+questions:
+- "Як я можу обробити багато наборів даних за допомогою однієї команди?"
+objectives:
+- "Вміти читати та писати  вирази глоббінгу, які відповідають наборам файлів"
+- "Використовувати glob для створення списків файлів."
+- "Писати цикли for для виконання операцій над файлами, названими у списку."
+keypoints:
+- "Використовуйте цикл `for` для обробки файлів із списком їх імен."
+- "Використовуйте `glob.glob`, щоб знайти набори файлів, імена яких відповідають шаблону."
+- "Використовуйте `glob` і `for` для обробки пакетів файлів."
+---
+
 ## Використовуйте цикл `for`  для обробки файлів, заданих списком їхніх імен.
 
 *   Ім'я файлу - це рядок символів.
@@ -164,19 +180,7 @@ data/gapminder_gdp_oceania.csv 10039.59564
 > > plt.legend()
 > > plt.show()
 > > ~~~
-> > {: .language-python} Front Matte: python-novice-gapminder/_episodes/15-coffee.md:sgid "---
-layout: break
-title: "Afternoon Coffee"
-teaching: 0
-exercises: 0
-break: 15
----sgstr "---
-layout: break
-title: "Післяобідня кава"
-teaching: 0
-exercises: 0
-break: 15
----
+> > {: .language-python}
 > {: .solution}
 {: .challenge}
 

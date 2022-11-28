@@ -1,3 +1,17 @@
+---
+title: "Область видимості змінної"
+teaching: 10
+exercises: 10
+questions:
+- "Як насправді працюють виклики функцій?"
+- "Як я можу визначити місце виникнення помилок?"
+objectives:
+- "Ідентифікація локальних і глобальних змінних."
+- "Ідентифікація параметрів як локальних змінних."
+- "Аналіз звіту системної  діагностики (Traceback) та визначення файлу, функції та номеру рядка, що містять збій, тип помилки та повідомлення про помилку"
+keypoints:
+- "Область змінної - це частина програми, яка може "бачити" цю зміну."
+---
 ## Область змінної - це частина програми, яка може "бачити" цю зміну.
 
 *   Є дуже багато розумних імен для змінних.
@@ -90,37 +104,7 @@ NameError: name 'temperature' is not defined
 >      13
 >
 > KeyError: 'Friday'
-> ~~~ Front Matte: python-novice-gapminder/_episodes/18-style.md:sgid "---
-title: "Programming Style"
-teaching: 15
-exercises: 15
-questions:
-- "How can I make my programs more readable?"
-- "How do most programmers format their code?"
-- "How can programs check their own operation?"
-objectives:
-- "Provide sound justifications for basic rules of coding style."
-- "Refactor one-page programs to make them more readable and justify the changes."
-- "Use Python community coding standards (PEP-8)."
-keypoints:
-- "Follow standard Python style in your code."
-- "Use docstrings to provide builtin help."
----sgstr "---
-title: "Стиль програмування"
-teaching: 15
-exercises: 15
-questions:
-- "Як я можу зробити мої програми більш читабельними?"
-- "Як більшість програмістів форматують свій код?"
-- "Як програми можуть перевірити свою роботу?"
-objectives:
-- "Визначення основних правил стилю кодування"
-- "Рефакторинг односторінкових програм, щоб зробити їх більш читабельними та обґрунтувати зміни"
-- "Використовання стандартів кодування спільноти Python (PEP-8)."
-keypoints:
-- "Дотримуйтеся стандартного стилю Python у своєму коді."
-- "Використовуйте рядки документів для надання вбудованої довідки"
----
+> ~~~
 > {: .error}
 {: .challenge}
 

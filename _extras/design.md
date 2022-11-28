@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Вміст проєкту"
+permalink: /design/
+---
+
 > ## Потрібна допомога
 > {:.no_toc}
 >
@@ -347,13 +353,5 @@
 *   Завдання: 15 хв.
     *  Збір та обробка відгуків
 
-### Завершення (16:30) Front Matte: python-novice-gapminder/_extras/discuss.md:sgid "---
-layout: page
-title: "Discussion"
-permalink: /discuss/
----sgstr "---
-layout: page
-title: "Обговорення"
-permalink: /discuss/
----
+### Завершення (16:30)
 

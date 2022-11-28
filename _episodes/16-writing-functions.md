@@ -1,3 +1,19 @@
+---
+title: "Написання функцій"
+teaching: 10
+exercises: 15
+questions:
+- "Як я можу створити власні функції?"
+objectives:
+- "Пояснити і визначитие різницю між визначенням функції та викликом функції."
+- "Написати функцію, яка приймає невелику фіксовану кількість аргументів і видає єдиний результат."
+keypoints:
+- "Розбийте програми на функції, щоб їх було легше зрозуміти."
+- "Визначте функцію за допомогою `def` з назвою, параметрами та блоком коду."
+- "Визначення функції не запускає її."
+- "Аргументи у виклику зіставляються з параметрами у визначенні."
+- "Функції можуть повертати результат своєго виклику за допомогою `return`."
+---
 ## Розбийте програми на функції, щоб їх було легше зрозуміти.
 
 *  Людина може одночасно зберігати лише кілька елементів у робочій пам’яті. 
@@ -523,33 +539,7 @@ print('результат виклику є таким:', result)
 > >         trajectory.append( logistic_map(trajectory[t-1], r) )
 > >     return trajectory
 > > ~~~
-> > {: .language-python} Front Matte: python-novice-gapminder/_episodes/17-scope.md:sgid "---
-title: "Variable Scope"
-teaching: 10
-exercises: 10
-questions:
-- "How do function calls actually work?"
-- "How can I determine where errors occurred?"
-objectives:
-- "Identify local and global variables."
-- "Identify parameters as local variables."
-- "Read a traceback and determine the file, function, and line number on which the error occurred, the type of error, and the error message."
-keypoints:
-- "The scope of a variable is the part of a program that can 'see' that variable."
----sgstr "---
-title: "Область видимості змінної"
-teaching: 10
-exercises: 10
-questions:
-- "Як насправді працюють виклики функцій?"
-- "Як я можу визначити місце виникнення помилок?"
-objectives:
-- "Ідентифікація локальних і глобальних змінних."
-- "Ідентифікація параметрів як локальних змінних."
-- "Аналіз звіту системної  діагностики (Traceback) та визначення файлу, функції та номеру рядка, що містять збій, тип помилки та повідомлення про помилку"
-keypoints:
-- "Область змінної - це частина програми, яка може "бачити" цю зміну."
----
+> > {: .language-python}
 > {: .solution}
 {: .challenge}
 

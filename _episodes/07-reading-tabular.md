@@ -1,3 +1,21 @@
+---
+title: "Читання табличних даних у DataFrames"
+teaching: 10
+exercises: 10
+questions:
+- "Як я можу читати табличні дані?"
+objectives:
+- "Імпортувати бібліотеку Pandas"
+- "Використати Pandas для завантаження простого набору даних CSV."
+- "Отримати базову інформацію про Pandas DataFrame."
+keypoints:
+- "Використовуйте бібліотеку Pandas, щоб отримати базову статистику з табличних даних."
+- "Використовуйте `index_col`, щоб вказати, що значення стовпця повинні використовуватися як заголовки рядків."
+- "Використовуйте `DataFrame.info`, щоб дізнатися більше про фрейм даних."
+- "Змінна `DataFrame.columns` зберігає інформацію про стовпці фрейму даних."
+- "Використовуйте `DataFrame.T` для транспонування кадру даних."
+- "Використовуйте `DataFrame.describe`, щоб отримати підсумкову статистику даних."
+---
 ## Використовуйте бібліотеку Pandas, щоб отримати статистику з табличних даних.
 
 *   Pandas — це бібліотека Python, яка  широко використовується для статистики, зокрема на основі табличних даних.
@@ -365,43 +383,7 @@ max      23424.766830    26997.936570    30687.754730    34435.367440
 > > ~~~
 > >{: .language-python}
 > > Зауважте, що `help(to_csv)` видає помилку! Це тонкощі, і це пов’язано з тим, що `to_csv` НЕ є функцією сама по собі
-> > а фактичним викликом є `americas.to_csv`. Front Matte: python-novice-gapminder/_episodes/08-data-frames.md:sgid "---
-title: "Pandas DataFrames"
-teaching: 15
-exercises: 15
-questions:
-- "How can I do statistical analysis of tabular data?"
-objectives:
-- "Select individual values from a Pandas dataframe."
-- "Select entire rows or entire columns from a dataframe."
-- "Select a subset of both rows and columns from a dataframe in a single operation."
-- "Select a subset of a dataframe by a single Boolean criterion."
-keypoints:
-- "Use `DataFrame.iloc[..., ...]` to select values by integer location."
-- "Use `:` on its own to mean all columns or all rows."
-- "Select multiple columns or rows using `DataFrame.loc` and a named slice."
-- "Result of slicing can be used in further operations."
-- "Use comparisons to select data based on value."
-- "Select values or NaN using a Boolean mask."
----sgstr "---
-title: "Pandas DataFrames"
-teaching: 15
-exercises: 15
-questions:
-- "Як я можу зробити статистичний аналіз табличних даних?"
-objectives:
-- "Вибір окремих значень з фрейму даних Pandas."
-- "Вибір цілих рядків або цілих стовпців з фрейму даних"
-- "Вибір підмножини рядків і стовпців з кадру даних за одну операцію."
-- "Вибір підмножини кадрів даних за одним бульовим критерієм."
-keypoints:
-- "Використовуйте `DataFrame.iloc[..., ...]` для вибору значень за цілим розташуванням."
-- "Використовуйте `:` окремо для позначення всіх стовпців або всіх рядків."
-- "Вибирайте кілька стовпців або рядків за допомогою `DataFrame.loc` і назви зрізу."
-- "Результат зрізу можна використовувати в подальших операціях."
-- "Використовуйте порівняння для вибору даних на основі цінності."
-- "Виберіть значення або NaN за допомогою бульової маски."
----
+> > а фактичним викликом є `americas.to_csv`.
 > {: .solution}
 {: .challenge}
 

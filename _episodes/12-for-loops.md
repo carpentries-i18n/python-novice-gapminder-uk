@@ -1,3 +1,23 @@
+---
+title: "Цикли for"
+teaching: 10
+exercises: 15
+questions:
+- "Як змусити програму робити багато речей?"
+objectives:
+- "Поясніть, для чого зазвичай використовуються цикли for."
+- "Відстежуйте виконання простого (невкладеного) циклу та правильно вказуйте значення змінних у кожній ітерації."
+- "Пишить цикли for, які використовують паттерн накопичувача для агрегування значень."  
+keypoints:
+- "Цикл *for* виконує команди один раз для кожного значення в колекції."
+- "Цикл `for` складається з колекції, змінної циклу та тіла."
+- "Перший рядок циклу `for` має закінчуватися двокрапкою, а тіло має бути з відступом."
+- "Відступи завжди важливі в Python."
+- "Змінні циклу можна називати як завгодно (але настійно рекомендується мати значущу назву для змінної циклу)."
+- "Тіло циклу може містити багато операторів."
+- "Використовуйте `range` для перебору послідовності чисел."
+- "Патерн накопичувача перетворює багато значень в одне."
+---
 ## *Цикл for* виконує команди один раз для кожного значення в колекції.
 
 *   Виконувати обчислення для значень у списку одне за іншим
@@ -379,39 +399,7 @@ print(total)
 > > seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 > > print('My favorite season is ', seasons[3])
 > > ~~~
-> > {: .language-python} Front Matte: python-novice-gapminder/_episodes/13-conditionals.md:sgid "---
-title: "Conditionals"
-teaching: 10
-exercises: 15
-questions:
-- "How can programs do different things for different data?"
-objectives:
-- "Correctly write programs that use if and else statements and simple Boolean expressions (without logical operators)."
-- "Trace the execution of unnested conditionals and conditionals inside loops."
-keypoints:
-- "Use `if` statements to control whether or not a block of code is executed."
-- "Conditionals are often used inside loops."
-- "Use `else` to execute a block of code when an `if` condition is *not* true."
-- "Use `elif` to specify additional tests."
-- "Conditions are tested once, in order."
-- "Create a table showing variables' values to trace a program's execution."
----sgstr "---
-title: "Умовні оператори"
-teaching: 10
-exercises: 15
-questions:
-- "Як програми можуть робити різні речі для різних даних?
-objectives:
-- "Правильно писати програми, які використовують оператори if та else та прості логічні вирази (без логічних операторів)."
-- "Відстежувати виконання невкладених умовних операторів і умовних операторів усередині циклів."
-keypoints:
-- "Використовуйте оператори if, щоб контролювати виконання блоку коду."
-- "Умовні оператори часто використовуються всередині циклів."
-- "Використовуйте `else` для виконання блоку коду, коли умова `if` є *не* істинною."
-- "Використовуйте `elif` для визначення додаткових перевірок."
-- "Умови перевіряються один раз, по порядку."
-- "Створіть таблицю зі значеннями змінних для відстеження виконання програми"
----
+> > {: .language-python}
 > {: .solution}
 {: .challenge}
 

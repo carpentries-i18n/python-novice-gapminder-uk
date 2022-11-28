@@ -1,3 +1,24 @@
+---
+title: "Типи даних та їх перетворення"
+teaching: 10
+exercises: 10
+questions:
+- "Які типи даних зберігають програми?"
+- "Як перетворити один тип у інший?"
+objectives:
+- "Зʼясувати чим відрізняються цілі числа від чисел з плаваючою крапкою."
+- "Зʼясувати чим відрізняються числа та рядки символів."
+- "Використовувати вбудовані функції для перетворення між цілими та дійсними числами, та рядками."
+keypoints:
+- "Кожне значення має тип."
+- "Вбудована функція `type` повертає тип значення."
+- "Тип контролює які операції можуть бути виконані над значеннями."
+- "Рядки можуть бути додані та помножені."
+- "Рядки мають довжину (а числа - ні)."
+- "Для деяких операцій може бути необхідно перетворити число у строку, або навпаки."
+- "Цілі та дійсні числа можна використовувати разом для аріфметичних дій."
+- "Змінні можуть змінити своє значення тільки через присвоювання."
+---
 ## Кожне значення має тип.
 
 *   Кожне значення, яке використовує програма, має деякий тип.
@@ -434,58 +455,7 @@ first is 2 and second is 5
 > > змінити. [Stack Overflow містить додаткові пояснення та
 > > обговорення.](http://stackoverflow.com/questions/24812444/why-are-complex-numbers-in-python-denoted-with-j-instead-of-i)
 > > 2. `(4+2j)`
-> > 3. `4j`, `Syntax Error: invalid syntax`, у цьому випадку _j_ вважається змінною, і це залежить від того, чи визначене _j_, і якщо так, то його присвоєне значення Front Matte: python-novice-gapminder/_episodes/04-built-in.md:sgid "---
-title: "Built-in Functions and Help"
-teaching: 15
-exercises: 10
-questions:
-- "How can I use built-in functions?"
-- "How can I find out what they do?"
-- "What kind of errors can occur in programs?"
-objectives:
-- "Explain the purpose of functions."
-- "Correctly call built-in Python functions."
-- "Correctly nest calls to built-in functions."
-- "Use help to display documentation for built-in functions."
-- "Correctly describe situations in which SyntaxError and NameError occur."
-keypoints:
-- "Use comments to add documentation to programs."
-- "A function may take zero or more arguments."
-- "Commonly-used built-in functions include `max`, `min`, and `round`."
-- "Functions may only work for certain (combinations of) arguments."
-- "Functions may have default values for some arguments."
-- "Use the built-in function `help` to get help for a function."
-- "The Jupyter Notebook has two ways to get help."
-- "Every function returns something."
-- "Python reports a syntax error when it can't understand the source of a program."
-- "Python reports a runtime error when something goes wrong while a program is executing."
-- "Fix syntax errors by reading the source code, and runtime errors by tracing the program's execution."
----sgstr "---
-title: "Вбудовані функції та довідка"
-teaching: 15
-exercises: 10
-questions:
-- "Як я можу використовувати вбудовані функції?"
-- "Як я можу дізнатися, що вони роблять?"
-- "Які помилки можуть виникати в програмах?"
-objectives:
-- "Пояснення призначення функцій."
-- "Коректний виклик вбудованих функцій Python."
-- "Коректний виклик вкладених вбудованих функцій."
-- "Використання довідки для перегляду документації про вбудовані функції."
-- "Правильний опис ситуації, в яких виникають SyntaxError і NameError"
-keypoints:
-- "Використання коментарів при створенні документації програм."
-- "Функція без аргументів та функція з довільною кількістю аргументів."
-- "Поширені вбудовані функції `max`, `min` та `round`."
-- "Функції можуть працювати лише з певними аргументами (комбінаціями аргументів)."
-- "Функції можуть мати значення за замовчуванням для певних аргументів."
-- "Використання вбудованої функції `help` для отримання довідки про функції".
-- "Два шляхи отримання допомоги у Jupyter Notebook."
-- "Кожна функція щось повертає."
-- "Python повідомляє про синтаксичну помилку, коли джерело програми не зрозуміле."
-- "Python повідомляє про помилку виконання, коли щось йде не так під час компілювання програми."
-- "Виправлення синтаксичних помилок у процесі читання вихідного коду, а помилок виконання - у процесі компіляції програми."
+> > 3. `4j`, `Syntax Error: invalid syntax`, у цьому випадку _j_ вважається змінною, і це залежить від того, чи визначене _j_, і якщо так, то його присвоєне значення
 > {: .solution}
 {: .challenge}
 

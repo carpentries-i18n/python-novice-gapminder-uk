@@ -1,3 +1,9 @@
+---
+layout: reference
+permalink: /reference/
+root: ..
+---
+
 ## Довідник
 
 ## [Запуск та завершення роботи]({{ page.root }}/01-run-quit/)
@@ -240,15 +246,5 @@ Jupyter Notebook
 :     Частина рядка.
 
 Змінні
-:     Назви значень. Front Matte: python-novice-gapminder/setup.md:sgid "---
-layout: page
-title: "Setup"
-permalink: /setup/
-root: ..
----sgstr "---
-layout: page
-title: "Налаштування"
-permalink: /setup/
-root: ..
----
+:     Назви значень.
 

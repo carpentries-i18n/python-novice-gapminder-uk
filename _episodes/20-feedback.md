@@ -1,10 +1,14 @@
-Зберіть відгуки про заняття Front Matte: python-novice-gapminder/_extras/about.md:sgid "---
-layout: page
-title: About
-permalink: /about/
----sgstr "---
-layout: page
-title: About
-permalink: /about/
 ---
+title: "Зворотній зв'язок"
+teaching: 0
+exercises: 15
+questions:
+- "Як пройшло заняття?"
+objectives:
+- "Зібрати відгуки про заняття"
+keypoints:
+- "Ми постійно прагнемо покращити цей курс."
+---
+
+Зберіть відгуки про заняття
 

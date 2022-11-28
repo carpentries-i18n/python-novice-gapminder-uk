@@ -1,3 +1,7 @@
+---
+title: Ілюстрації
+---
+
 {% include base_path.html %}
 
 <script>
@@ -59,13 +63,5 @@
 {% endcomment %}
 {% for episode in site.episodes %}
 <article id="{{ episode.url }}" class="figures"></article>
-{% endfor %} Front Matte: python-novice-gapminder/_extras/guide.md:sgid "---
-layout: page
-title: "Instructors' Guide"
-permalink: /guide/
----sgstr "---
-layout: page
-title: "Instructors' Guide"
-permalink: /guide/
----
+{% endfor %}
 

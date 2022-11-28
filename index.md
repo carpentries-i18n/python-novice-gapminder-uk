@@ -1,3 +1,9 @@
+---
+layout: lesson
+root: .  # Is the only page that doesn't follow the pattern /:path/index.html
+permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
+---
+
 Цей урок містить введення до програмування на мові Python для користувачів які не мають зовсім або мають початковий
 досвід програмування. Він використовує побудову графіків як мотиваційний приклад, та розроблений для використання на
 [Data Carpentry][dc-lessons] та [Software Carpentry][swc-lessons] тренігах. 
@@ -28,13 +34,5 @@
 >
 >    Будь ласка дивіться [the setup instructions][lesson-setup]
 >    щоб знайти подальші деталі.
-{: .prereq} Front Matte: python-novice-gapminder/reference.md:sgid "---
-layout: reference
-permalink: /reference/
-root: ..
----sgstr "---
-layout: reference
-permalink: /reference/
-root: ..
----
+{: .prereq}
 

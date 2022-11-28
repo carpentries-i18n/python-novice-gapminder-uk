@@ -1,3 +1,20 @@
+---
+title: "Умовні оператори"
+teaching: 10
+exercises: 15
+questions:
+- "Як програми можуть робити різні речі для різних даних?
+objectives:
+- "Правильно писати програми, які використовують оператори if та else та прості логічні вирази (без логічних операторів)."
+- "Відстежувати виконання невкладених умовних операторів і умовних операторів усередині циклів."
+keypoints:
+- "Використовуйте оператори if, щоб контролювати виконання блоку коду."
+- "Умовні оператори часто використовуються всередині циклів."
+- "Використовуйте `else` для виконання блоку коду, коли умова `if` є *не* істинною."
+- "Використовуйте `elif` для визначення додаткових перевірок."
+- "Умови перевіряються один раз, по порядку."
+- "Створіть таблицю зі значеннями змінних для відстеження виконання програми"
+---
 ## Використовуйте оператори if, щоб контролювати виконання блоку коду..
 
 *   Оператор if (точніше його називають *умовним* оператором)
@@ -405,34 +422,6 @@ print('кінцева швидкість:', velocity)
 > Праворуч від `=` ми починаємо з `data['lifeExp']`, який є 
 > стовпцем з позначкою `lifExp` у фреймі даних `data` .  Ми використовуємо засіб
 > `apply()`, щоб виконати функцію `calculate_life_quartile` для
-> визначення значень стовпця  'life_qrtl' для кожного рядку фрему даних `data` Front Matte: python-novice-gapminder/_episodes/14-looping-data-sets.md:sgid "---
-title: "Looping Over Data Sets"
-teaching: 5
-exercises: 10
-questions:
-- "How can I process many data sets with a single command?"
-objectives:
-- "Be able to read and write globbing expressions that match sets of files."
-- "Use glob to create lists of files."
-- "Write for loops to perform operations on files given their names in a list."
-keypoints:
-- "Use a `for` loop to process files given a list of their names."
-- "Use `glob.glob` to find sets of files whose names match a pattern."
-- "Use `glob` and `for` to process batches of files."
----sgstr "---
-title: "Перегляд наборів даних в циклі"
-teaching: 5
-exercises: 10
-questions:
-- "Як я можу обробити багато наборів даних за допомогою однієї команди?"
-objectives:
-- "Вміти читати та писати  вирази глоббінгу, які відповідають наборам файлів"
-- "Використовувати glob для створення списків файлів."
-- "Писати цикли for для виконання операцій над файлами, названими у списку."
-keypoints:
-- "Використовуйте цикл `for` для обробки файлів із списком їх імен."
-- "Використовуйте `glob.glob`, щоб знайти набори файлів, імена яких відповідають шаблону."
-- "Використовуйте `glob` і `for` для обробки пакетів файлів."
----
+> визначення значень стовпця  'life_qrtl' для кожного рядку фрему даних `data`
 {: .callout}
 
