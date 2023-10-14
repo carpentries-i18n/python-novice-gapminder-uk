@@ -4,16 +4,16 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
-Цей урок містить введення до програмування на мові Python для користувачів які не мають зовсім або мають початковий
+Цей урок містить введення до програмування на мові Python для користувачів, які не мають зовсім або мають початковий
 досвід програмування. Він використовує побудову графіків як мотиваційний приклад, та розроблений для використання на
 [Data Carpentry][dc-lessons] та [Software Carpentry][swc-lessons] тренігах. 
 Цей урок використовує [JupyterLab][jupyterlab], але його також можна викладати у звичайному інтрепретаторі мови Python.
-Зверніть увагу, що він використовує Python 3 а не Python 2.
+Зверніть увагу, що він використовує Python 3, а не Python 2.
 
 > ## У розробці
 >
 > **Цей урок знаходиться на початковій стадії розробки;
-> будь ласка перевірте [цю сторінку]({{ page.root }}/design/)
+> будь ласка, перевірте [цю сторінку]({{ page.root }}/design/)
 > щоб побачити що вже зроблено.
 > Ми будемо дуже вдячні за допомогу,
 > особливо за нові вправи
@@ -29,10 +29,10 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > 2. Слухачі мають встановити Python до початку тренінгу.
 >
 > 3. Слухачі мають отримати дані (gapminder) перед початком тренінгу:
->    будь ласка загрузіть та распакуйте файл 
+>    будь ласка, завантажте та розархівуйте файл 
 >    [python-novice-gapminder-data.zip]({{page.root}}/files/python-novice-gapminder-data.zip).
 >
->    Будь ласка дивіться [the setup instructions][lesson-setup]
->    щоб знайти подальші деталі.
+>    Будь ласка, дивіться [the setup instructions][lesson-setup]
+>    для отримання детальної інформації. 
 {: .prereq}
 

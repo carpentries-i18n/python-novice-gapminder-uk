@@ -89,7 +89,7 @@ $ jupyter lab
 веббраузері за замовчуванням після запуску сервера JupyterLab в операційній системі Mac OS X або ОС Windows.
 
 <p align='center'>
-  <img alt="JupyterLab landing page" src="../fig/0_jupyterlab_landing_page.png" width="750"/>
+  <img alt="JupyterLab landing page" src="{{ site.baseurl }}/fig/0_jupyterlab_landing_page.png" width="750"/>
 </p>
 
 ## Інтерфейс JupyterLab
@@ -119,7 +119,7 @@ JupyterLab має багато можливостей традиційних і�
 Нижче наведено скриншот панелі меню за замовчуванням.
 
 <p align='center'>
-    <img alt="JupyterLab Menu Bar" src="../fig/0_jupyterlab_menu_bar.png" width="750"/>
+    <img alt="JupyterLab Menu Bar" src="{{ site.baseurl }}/fig/0_jupyterlab_menu_bar.png" width="750"/>
 </p>
 
 ### Ліва бічна панель
@@ -130,7 +130,7 @@ JupyterLab має багато можливостей традиційних і�
 вигляду лівої бічної панелі за замовчуванням наведений нижче.
 
 <p align='center'>
-    <img alt="JupyterLab Left Side Bar" src="../fig/0_jupyterlab_left_side_bar.png" width="250"/>
+    <img alt="JupyterLab Left Side Bar" src="{{ site.baseurl }}/fig/0_jupyterlab_left_side_bar.png" width="250"/>
 </p>
 
 Ліву бічну панель можна згорнути або розгорнути за допомогою вибору пункту “Show Left Sidebar” меню View або 
@@ -143,7 +143,7 @@ JupyterLab має багато можливостей традиційних і�
 змінити їх розмір. Скриншот панелі меню надано нижче.
 
 <p align='center'>
-    <img alt="JupyterLab Main Work Area" src="../fig/0_jupyterlab_main_work_area.png" width="750"/>
+    <img alt="JupyterLab Main Work Area" src="{{ site.baseurl }}/fig/0_jupyterlab_main_work_area.png" width="750"/>
 </p>
 
 Перетягніть вкладку в центр панелі вкладок, щоб перемістити вкладку на панель. Розділіть панель вкладок за допомогою 
@@ -172,7 +172,7 @@ JupyterLab має багато можливостей традиційних і�
 докладніше дивиться в [official notebook documentation][jupyterlab-notebook-docs].
 
 <p align='center'>
-    <img alt="Example Jupyter Notebook" src="../fig/0_jupyterlab_notebook_screenshot.png" width="750"/>
+    <img alt="Example Jupyter Notebook" src="{{ site.baseurl }}/fig/0_jupyterlab_notebook_screenshot.png" width="750"/>
 </p>
 
 > ## Як це зберігається
@@ -188,7 +188,7 @@ JupyterLab має багато можливостей традиційних і�
 > приклад з [official documentation][jupyterlab].
 > 
 > <p align='center'>
->    <img alt="Multi-panel JupyterLab" src="../fig/0_multipanel_jupyterlab_screenshot.png" width="750"/>
+>    <img alt="Multi-panel JupyterLab" src="{{ site.baseurl }}/fig/0_multipanel_jupyterlab_screenshot.png" width="750"/>
 > </p>
 >
 > Спочатку створіть текстовий файл, консоль Python і вікно терміналу, а потім розділіть їх на три 
